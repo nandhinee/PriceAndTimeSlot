@@ -1,0 +1,10 @@
+<package>
+	<name>admin</name>
+	<category>Application</category>
+	<version>1.0</version>
+	<description>Application</description>
+	<author>fareedh</author>
+	<license>GPL</license>
+	<type>Application</type>
+	<icon>index.php?extern=apps/eyeX/themes/default/icons/60x60/admin.jpg</icon>
+</package>

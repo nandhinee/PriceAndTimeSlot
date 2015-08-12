@@ -1,0 +1,102 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:white; color:#57E964; font:10px/14px Tahoma, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+#mainbody{width:775px; margin:0 auto; position:relative; padding:0px; border-left: #CCCCCC 1px solid} 
+
+/*  TOP HEADER  */
+
+#topheader{height:101px; width:770px; background:url(../images/topline.jpg) 0 0 no-repeat; margin:0 0 0 5px; position:relative; padding:0px;} 
+
+#topheader img{height:47px; width:194px; position:absolute; top:30px; left:23px;}
+
+#topheader ul {width:473px; height:33px; position:absolute; top:47px; left:269px; background:url(../images/lines_m.jpg) 0 0 no-repeat;}
+#topheader ul li{float:left}
+
+#topheader ul li.home{width:62px; height:17px; margin-right:22px}
+#topheader ul li.home a{width:62px; height:17px; display:block; background:url(../images/btn_home.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#topheader ul li.home a:hover{width:62px; height:17px; background:url(../images/btn_home_over.jpg) 0 0 no-repeat;}
+
+#topheader ul li.about{width:83px; height:17px; margin-right:20px}
+#topheader ul li.about a{width:83px; height:17px; display:block; background:url(../images/btn_about.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#topheader ul li.about a:hover{width:83px; height:17px; background:url(../images/btn_about_over.jpg) 0 0 no-repeat;}
+
+#topheader ul li.services{width:79px; height:17px; margin-right:22px}
+#topheader ul li.services a{width:79px; height:17px; display:block; background:url(../images/btn_services.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#topheader ul li.services a:hover{width:79px; height:17px; background:url(../images/btn_services_over.jpg) 0 0 no-repeat;}
+
+#topheader ul li.support{width:79px; height:17px; margin-right:22px}
+#topheader ul li.support a{width:79px; height:17px; display:block; background:url(../images/btn_support.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#topheader ul li.support a:hover{width:79px; height:17px; background:url(../images/btn_support_over.jpg) 0 0 no-repeat;}
+
+#topheader ul li.contacts{width:79px; height:17px;}
+#topheader ul li.contacts a{width:79px; height:17px; display:block; background:url(../images/btn_contacts.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#topheader ul li.contacts a:hover{width:79px; height:17px; background:url(../images/btn_contacts_over.jpg) 0 0 no-repeat;}
+
+/* TOP BACK */
+
+#topback{height:295px; width:770px; background:url(../images/main_back.jpg) 0 0 no-repeat; margin:0 0 0 5px; position:relative; padding:0px;}
+#topback h2{width:181px; height:28px; background:url(../images/h_welcome.jpg) 0 0 no-repeat; text-indent:-20000px; margin:14px 0 0 19px;}
+#topback p{width:170px; margin:14px 0 0 23px; font:10px/14px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#FFF; }
+#topback p span {font:12px/14px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#72ab13; text-transform:uppercase; }
+
+#topback ul{width:170px; margin:14px 0 0 23px;}
+#topback ul li a{display:block; width:160px; height:20px; background:url(../images/arrow1.jpg) 0 6px no-repeat; font:10px/20px Tahoma, Arial, Helvetica, sans-serif; color:#6fe3f0; font-weight:normal; text-decoration:none; padding:0 0 0 20px;}
+#topback ul li a:hover{text-decoration:underline; color:#FFF} 
+
+#topback ul.ask {width:200px; height:50px; position:absolute; top:232px; left:558px; background: none; margin:0}
+#topback ul.ask li a{width:200px; height:50px; display:block; text-indent:-20000px; background: none; padding:0}
+#topback ul.ask li a:hover{width:200px; height:50px;}
+
+/*  BODY PAN */
+
+#bodypan{width:770px; margin:0 0 0 5px; position:relative; padding:0px;}
+
+#leftpan{width:219px; margin:18px 0 0 19px; position:relative; padding:0px; float:left}
+#leftpan h2{width:219px; height:27px; background:url(../images/h_latestnews.jpg) 0 0 no-repeat; text-indent:-20000px; margin:0 0 1px 0; border-bottom:#1c3743 1px solid;}
+#leftpan ul{width:215px; margin:0 0 0 4px;}
+#leftpan ul li.arrow{background:url(../images/arrow2.jpg) 0 6px no-repeat; height:16px; padding:0 0 0 16px; font:12px/14px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#72ab13; margin-top:14px}
+#leftpan ul li{background:none; padding:0 0 0 16px;}
+#leftpan ul li span {font:10px/14px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#4aafdc;}
+#leftpan ul li a{font:10px/14px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#000; text-decoration:none;}
+#leftpan ul li a:hover{color:#4aafdc;}
+
+#middlepan{width:212px; margin:18px 0 0 31px; position:relative; padding:0px; float:left}
+#middlepan h2{width:212px; height:27px; background:url(../images/h_featuredservices.jpg) 0 0 no-repeat; text-indent:-20000px; margin:0 0 16px 0; border-bottom:#1c3743 1px solid;}
+#middlepan h3{width:212px; height:76px; background:url(../images/img1.jpg) 0 0 no-repeat; text-indent:-20000px; margin:0 0 12px 0;}
+#middlepan span{color:#4aafdc;}
+#middlepan a{font:10px/14px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#000; text-decoration:none;}
+#middlepan a:hover{color:#4aafdc;}
+
+#rightpan{width:246px; margin:18px 0 0 28px; position:relative; padding:0px; float:left}
+#rightpan h2{width:246px; height:27px; background:url(../images/h_professionalteam.jpg) 0 0 no-repeat; text-indent:-20000px; margin:0 0 16px 0; border-bottom:#1c3743 1px solid;}
+#rightpan span{color:#4aafdc;}
+#rightpan #img01{background:url(../images/img2.jpg) 0 0 no-repeat; min-height:76px; padding:0 0 0 89px; font:10px/14px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; margin-top:12px}
+#rightpan #img02{background:url(../images/img3.jpg) 0 0 no-repeat; min-height:76px; padding:0 0 0 89px; font:10px/14px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; margin-top:12px}
+#rightpan a{font:10px/14px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#000; text-decoration:none;}
+#rightpan a:hover{color:#4aafdc;}
+
+/*  FOOTER */
+
+#footer{
+	width:770px;
+	height:75px;
+	margin:15px 0 0 5px;
+	position:relative;
+	padding:0px;
+	background:#38ACEC;
+	float: left;
+}
+#footer p{margin:20px 0 0 40px; font:10px/18px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal;}
+#footer a{font:10px/18px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#6f6f6f; text-decoration:none;}
+#footer a:hover{color:#000; text-decoration:underline;}
+#footer img {height:37px; width:123px; position:absolute; top:17px; left:510px;}
+
+#sponsor{
+	width:770px;
+	margin:15px 0px 10px 0px;
+	text-align: center;
+	float: left;
+	position: relative;
+}
